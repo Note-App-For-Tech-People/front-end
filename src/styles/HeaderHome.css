@@ -1,9 +1,9 @@
-.home-header .container {
+.HeaderHome .container {
     margin: 0 auto;
     width: 100%;
 }
 
-.home-header .container {
+.HeaderHome .container {
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -15,45 +15,44 @@
 
 
 
-.home-header .container > .logo {
+.HeaderHome .container > .logo {
     padding: 0.8rem;
 }
-.home-header .container > .logo a {
+.HeaderHome .container > .logo a {
     color: #000;
     display: block;
     outline: none;
 }
-.home-header .container > .logo a span {
-    font-size: 2rem;
-    font-weight: 800;
+.HeaderHome .container > .logo a img {
+    height: 18px;
 }
 
 
-.home-header .container > .main-nav {
+.HeaderHome .container > .main-nav {
 }
-.home-header .container > .main-nav ul {
+.HeaderHome .container > .main-nav ul {
     margin: 0;
     display: flex;
 }
-.home-header .container > .main-nav ul li {
+.HeaderHome .container > .main-nav ul li {
     list-style: none;
 }
-.home-header .container > .main-nav ul li a {
+.HeaderHome .container > .main-nav ul li a {
     color: #00308F;
     font-size: 1.4rem;
     font-weight: 700;
     margin-left: 1rem;
     text-transform: uppercase;
 }
-.home-header .container > .main-nav ul li a span {
-    padding: 1.2rem 1.5rem;
+.HeaderHome .container > .main-nav ul li a span {
+    padding: 1.2rem 2rem;
 }
 
-.home-header .container > .main-nav .login span {
+.HeaderHome .container > .main-nav .login span {
 }
 
-.home-header .container > .main-nav .signIn span {
-    border-radius: 8px;
+.HeaderHome .container > .main-nav .signIn span {
+    border-radius: 30px;
 }
 
 
