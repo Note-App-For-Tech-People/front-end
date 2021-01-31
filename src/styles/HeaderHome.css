@@ -1,0 +1,75 @@
+.home-header .container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.home-header .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 1.5rem 0;
+    /* max-width: 1024px; */
+    width: 90%;
+}
+
+
+
+.home-header .container > .logo {
+    padding: 0.8rem;
+}
+.home-header .container > .logo a {
+    color: #000;
+    display: block;
+    outline: none;
+}
+.home-header .container > .logo a span {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+.home-header .container > .main-nav {
+}
+.home-header .container > .main-nav ul {
+    margin: 0;
+    display: flex;
+}
+.home-header .container > .main-nav ul li {
+    list-style: none;
+}
+.home-header .container > .main-nav ul li a {
+    color: #00308F;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+.home-header .container > .main-nav ul li a span {
+    padding: 1.2rem 1.5rem;
+}
+
+.home-header .container > .main-nav .login span {
+}
+
+.home-header .container > .main-nav .signIn span {
+    border-radius: 8px;
+}
+
+
+
+/* GENERAL */
+
+.btn-grad {background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%)}
+.btn-grad {
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: #FFF;
+   box-shadow: 0 0 20px #eee;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   text-decoration: none;
+ }
+
